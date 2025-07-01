@@ -18,17 +18,6 @@ Easy-to-customize theming & assets
 Tech Stack
 React 18 + Vite – lightning-fast build & refresh (~0.5s loads) 
 victorbruce82.medium.com
-+12
-github.com
-+12
-medium.com
-+12
-github.com
-+1
-linkedin.com
-+1
-linkedin.com
-reddit.com
 
 React Router DOM v6 for navigation
 
