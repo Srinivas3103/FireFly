@@ -1,19 +1,21 @@
 import React from 'react'
+
 import './Home.css'
 import { assets } from '../../assets/aasets'
 
 const Home = () => {
+
     return (
         <div>
             <section className="about-section">
                 <div className="side-decor left">
-                    <img src={assets.sparkle} alt="" />
+                    <img src={assets.sparkle} alt="sparkle" />
                 </div>
                 <div className="about-container">
                     <div className="about-header">
-                    <hr className="decoration-bar" />
+                    
                     <h2 className="about-title">About</h2>
-                    <hr className="decoration-bar" />
+                    
                 </div>
                     <div className="about-content">
                         <p className="about-text">
@@ -25,7 +27,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="side-decor right">
-                    <img src={assets.sparkle} alt="" />
+                    <img src={assets.sparkle} alt="sparkle" />
                 </div>
             </section>
         </div>

@@ -49,3 +49,39 @@
 .button:hover{
     background-color: grey;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .header-container {
+    padding-left: 0;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 100px;
+  }
+
+  .text-container {
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .button {
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

@@ -96,3 +96,47 @@
 .cta-btn:hover {
   background: darkred;
 }
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .modal-images {
+    flex: 1 1 auto;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .modal-images #mainImg {
+    width: 100%;
+  }
+
+  .thumbnails {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .thumbnails .thumb {
+    width: 60px;
+    height: 60px;
+  }
+
+  .modal-info {
+    flex: 1 1 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .cta-btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .close-btn {
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+  }
+}
